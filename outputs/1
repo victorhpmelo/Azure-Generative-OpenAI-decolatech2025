@@ -1,0 +1,12 @@
+Imagem 1: Terminal (Docker)
+
+A imagem mostra um terminal com o comando docker ps, que exibe os containers em execução.
+
+    Usuário e Máquina:
+    Container em Execução:
+        ID: 
+        Imagem: mysql:latest
+        Comando: "docker-entrypoint.s..."
+        Criado há: 10 horas
+        Status: Em execução por 10 horas
+        Portas: 0.0.0.0:3306->3306/tcp
