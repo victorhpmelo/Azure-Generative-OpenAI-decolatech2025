@@ -1,0 +1,43 @@
+Imagem 3: Código no IntelliJ IDEA
+
+A imagem mostra um ambiente de desenvolvimento no IntelliJ IDEA com um projeto Java chamado "task-board".
+Estrutura do Projeto:
+
+    Pacote principal: br.crud.taskboard
+    Subpacotes:
+        dto
+        exception
+        persistence
+        service
+        ui (contém BoardMenu.java, que está aberto)
+    Arquivos de configuração:
+        Liquibase (db.changelog-2025160...)
+        application.properties
+        liquibase.properties
+
+Arquivo Aberto: BoardMenu.java
+
+    Classe: BoardMenu
+    Utiliza:
+        Scanner para entrada do usuário
+        BoardModel como estrutura de dados
+        Um loop para exibir opções do menu
+
+Opções do Menu (em português):
+
+    Criar um card
+    Mover um card
+    Bloquear um card
+    Desbloquear um card
+    Excluir um card
+    Ver board
+    Ver coluna com cards
+    Voltar para o menu anterior
+    Sair
+
+Dependências do Maven:
+
+    Spring Boot Starter (3.4.3)
+    Liquibase (4.29.2)
+    Lombok (1.18.36)
+    MySQL Connector (j9.1.0)
